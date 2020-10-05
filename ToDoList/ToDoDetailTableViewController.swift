@@ -51,7 +51,7 @@ class ToDoDetailTableViewController: UITableViewController {
     }
     
     @objc func appActiveNotification(){
-        print("The app just came to the foreground")
+        print("The app just came to the foreground!")
         updateReminderSwitch()
     }
     

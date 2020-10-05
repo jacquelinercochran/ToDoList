@@ -34,7 +34,7 @@ class ToDoItems{
         do {
             itemsArray = try jsonDecorder.decode(Array<ToDoItem>.self, from: data)
         } catch{
-            print("Error: Could not laod data")
+            print("Error: Could not laod data.")
         }
         completed()
     }

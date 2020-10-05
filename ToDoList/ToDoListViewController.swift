@@ -95,7 +95,7 @@ extension ToDoListViewController: UITableViewDelegate, UITableViewDataSource, Li
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
-        print("numberOfRowsInSection was just called.Returning \(toDoItems.itemsArray.count)")
+        print("numberOfRowsInSection was just called.Returning \(toDoItems.itemsArray.count)!")
         return toDoItems.itemsArray.count
     }
     

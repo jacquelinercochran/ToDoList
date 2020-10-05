@@ -10,6 +10,7 @@ import UIKit
 
 protocol ListTableViewCellDelegate: class {
     func checkBoxToggle(sender: ListTableViewCell)
+    //Looking good!
 }
 
 class ListTableViewCell: UITableViewCell {
